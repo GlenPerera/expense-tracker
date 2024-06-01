@@ -1,9 +1,16 @@
 import Image from "next/image";
+import Header from "./_components/Header";
+import Hero from "./_components/Hero";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello Therea
-    </main>
+    <div>
+      <>
+        <Header />
+        <Hero />
+      </>
+
+      <div></div>
+    </div>
   );
 }
